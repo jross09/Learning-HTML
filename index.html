@@ -24,7 +24,44 @@
         <!-- Already specified in the charset above-->
 
         <style>
-            div {border: dotted rgb(248, 10, 133);}
+            * {
+                box-sizing:border-box;
+                font-size:2vw;
+            }
+
+            //div {border: thin dotted rgb(243, 14, 186)}
+
+            .header {
+                border: 1px solid rgb(14, 165, 47);
+                padding: 15px;
+                font-size:4vw;
+            }
+
+            .menu {
+                width: 15%;
+                float: left;
+                padding: 15px;
+                border: 1px solid rgb(0, 115, 255)
+            }
+
+            .main {
+                width: 50%;
+                float: left;
+                padding: 15px;
+                border: 1px solid rgb(102, 0, 255)
+            }
+            .aside {
+                width: 35%;
+                float: left;
+                padding: 15px;
+                border: 1px solid rgb(255, 0, 128)
+            }
+            .footer {
+                padding: 15px;
+                border: 1px solid rgb(0, 255, 51)
+            }
+
+
         </style>
 
         <noscript>Running JavaScript is not necessary in this HTML Page ... FYI: your Feature to execute is turned off</noscript>
@@ -49,7 +86,7 @@
                     </ul>
             </section>
         </nav></div>
-        <aside></aside>
+        <div><aside class="aside">Aside</aside></div>
         <main>
             <div>
                 <h1 style="font-size:3vw">
